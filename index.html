@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./cite.css" />
+    <title>CV page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assets/cat.png" alt="cat" class="cat" />
+      <h1 class="header__title">Evgeny K | CV page</h1>
+      <h2 class="header__subtitle">Frontend developer</h2>
+    </header>
+    <main>
+      <section class="skills">
+        <h3>Skills</h3>
+        <details>
+          <summary>Skills list:</summary>
+          <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Angular</li>
+          </ul>
+        </details>
+      </section>
+      <article class="article">
+        <h4>Short article about me:</h4>
+        <p class="article__content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat et
+          blanditiis optio exercitationem, vero voluptate, eum earum iste
+          tempora accusamus sunt cumque ab. Voluptatibus amet ea qui eveniet
+          inventore velit quas nesciunt quibusdam magni, repellat necessitatibus
+          hic natus totam reiciendis.
+        </p>
+      </article>
+      <section class="gallery">
+        <img src="./assets/les.png" alt="code_img" class="gallery-img" />
+        <img src="./assets/les.png" alt="code_img" class="gallery-img" />
+        <img src="./assets/les.png" alt="code_img" class="gallery-img" />
+      </section>
+      <hr class="separator" />
+
+      <section class="video">
+        <iframe
+          class="my__video"
+          src="https://www.youtube.com/embed/bxl_qi72tMU"
+          title="HTML для начинающих за 33 минуты"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <hr class="separator" />
+      <section class="Hobbies">
+        <details>
+          <summary>Hobbies:</summary>
+          <ol>
+            <li>Sport</li>
+            <li>Walk</li>
+            <li>PC</li>
+          </ol>
+        </details>
+      </section>
+      <br />
+      <section class="ed">
+        <table class="ed__table">
+          <thead>
+            <tr>
+              <th>School / University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>IT school 1</td>
+              <td>Angular Developer</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>IT school 2</td>
+              <td>TypeScript Learning</td>
+              <td>2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <figure class="quote">
+        <blockquote>
+          <p>Действие - единственный путь к успеху.</p>
+        </blockquote>
+      </figure>
+      <section class="interaction">
+        <form action="https://ya.ru" method="get" target="_blank">
+          <fieldset class="fieldset__line">
+            <legend>Ask me anything</legend>
+
+            <label for="firstNameID">First Name:</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstNameID"
+              class="form__control"
+              placeholder="first name"
+              required
+            />
+            <label for="lastNameID">Last Name:</label>
+            <input
+              type="text"
+              name="lastName"
+              id="firstNameID"
+              class="form__control"
+              placeholder="last name"
+              required
+            />
+            <label for="emailID">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="emailID"
+              class="form__control"
+              placeholder="email"
+              required
+            />
+          </fieldset>
+          <br />
+          <textarea
+            name="Type"
+            id=""
+            cols="30"
+            rows="10"
+            class="form__control control--text"
+            placeholder="Your questions..."
+          ></textarea>
+
+          <button type="submit" class="form__submit">Submit form</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <address>
+        <a href="mailto: it_proger@mail.ru" class="contacts__link"
+          >it_proger@mail.ru</a
+        >
+        <br /><br />
+        <a href="tel: +998941234567" class="contacts__link">+998941234567</a>
+      </address>
+      <br /><br />
+    </footer>
+  </body>
+</html>
