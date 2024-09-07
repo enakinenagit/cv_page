@@ -1,0 +1,102 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.cat {
+  width: 250px;
+  height: 250px;
+}
+
+.header__title {
+  font-size: 25px;
+}
+
+.header__subtitle {
+  font-size: 20px;
+  color: rgb(117, 53, 53);
+}
+
+main {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.skills li {
+  list-style-position: inside;
+}
+
+.gallery-img {
+  width: 250px;
+  height: 200px;
+}
+
+.separator {
+  width: 50%;
+  height: 3px;
+  background-color: blueviolet;
+}
+
+.my__video {
+  width: 800px;
+  height: 400px;
+}
+
+.Hobbies ol {
+  list-style-position: inside;
+}
+
+.ed__table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 55%;
+  background-color: rgb(166, 235, 235);
+}
+
+.ed__table th,
+td {
+  border: 1px solid black;
+}
+
+.quote {
+  font-size: 25px;
+}
+
+.fieldset__line {
+  border: 1px solid blue;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form__control {
+  width: 80%;
+}
+
+.control--text {
+  width: 70%;
+}
+
+.form__submit {
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgb(99, 122, 122);
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: white;
+}
