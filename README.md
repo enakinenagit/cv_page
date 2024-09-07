@@ -10,6 +10,6 @@
 
 ```
 
-[CV page](https://enakinenagit.github.io/cv_page//)
+[CV page](https://enakinenagit.github.io/cv_page/)
 
 ![image](/assets/cat.png)
